@@ -1,0 +1,41 @@
+p {
+    color: green;
+}
+
+ul {
+  color: green;
+}
+li {
+  color: green;
+}
+h1{
+  font-weight: bold;
+  color: purple;
+  border: 5px solid purple;
+  text-align: center;
+
+}
+h2 {
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
+body{
+  background-color: lightblue;
+  font-family:sans-serif;
+}
+img {
+  float: right;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: line-through;
+  color: yellow;
+  font-weight: lighter;
+}
