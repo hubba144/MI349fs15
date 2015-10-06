@@ -1,0 +1,52 @@
+body {
+  background: pink;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 150px;
+  background: #fff url(blonde.jpg) no-repeat center;
+  border-top: 10px solid #424242;
+}
+
+.pager {
+  padding: 20px 40px;
+  background: #fff;
+
+}
+
+
+a:link{
+  color: red;
+  text-decoration: none;
+
+}
+
+a:visited{
+  color: grey;
+  text-decoration: line-through;
+
+}
+
+a:hover{
+  color: blue;
+
+}
+
+ul{
+  height: 150px;
+}
+ul li{
+
+  display: inline-grid;
+  padding: 10px;
+  width: 300px;
+  float: left;
+}
+
+h2{
+  clear: both;
+}
