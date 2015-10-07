@@ -1,7 +1,7 @@
 body {
-  background: #ccc;
+  background: black;
   margin: 0;
-  font-family: Helvetica;
+  font-family:cursive;
 }
 
 .container {
@@ -20,18 +20,19 @@ body {
 
 
 a:link{
-  color: red;
+  color: green;
   text-decoration: none;
 
 }
 
 a:visited{
-  color: grey;
+  color: blue;
+  text-decoration: line-through;
 
 }
 
 a:hover{
-  color: yellow;
+  color: grey;
 
 }
 
@@ -43,22 +44,34 @@ ul li:last-child{
   color: red;
 }
 
-ul li:nth-child(2n+1){
-  background: #e3e3e3;
+ul li:nth-child(even){
+  color: green;
+}
+ul li:nth-child(odd){
+  color: blue;
 }
 ul{
-  height: 150px;
+  height: 175px;
 }
 ul li{
-  
+
   padding: 10px;
   width: 300px;
   float: left;
 }
-
+.h2{
+  font-family: "Helvetica";
+  border: solid;
+  background-color: yellow;
+}
 h2{
   clear: both;
+  border: solid;
+  border-color: orange;
+
 }
+
+
 
 /*
 Pseudo classes
