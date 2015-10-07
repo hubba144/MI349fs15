@@ -4,11 +4,19 @@ body {
   font-family: Helvetica;
 }
 
+h1{
+  font-size: 200%;
+  text-align: center;
+}
+
+#kitten{
+  text-align: center;
+}
 .container {
   margin: 0 auto;
-  width: 800px;
+  width: 900px;
   padding-top: 150px;
-  background: #fff url(blonde.jpg) no-repeat center;
+  background: #fff url(blonde.jpg) no-repeat right;
   border-top: 10px solid #424242;
 }
 
@@ -49,4 +57,27 @@ ul li{
 
 h2{
   clear: both;
+}
+
+.personas{
+  background-color: #FFFFCC;
+  width: 30%;
+}
+
+#Glenda{font-family: cursive;
+
+}
+
+#Jake{
+  font-family: fantasy;
+}
+
+#Katie{
+  font-family: monospace;
+}
+
+.Comps {
+  float:left;
+  background-color: #FFFFCC;
+  width: 25%;
 }
