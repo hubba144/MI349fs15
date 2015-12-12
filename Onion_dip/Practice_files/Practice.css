@@ -1,0 +1,66 @@
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  font: Tahoma;
+  padding: 20px;
+
+}
+h1{
+  font-size: 32px;
+}
+.col-1{
+  border: solid;
+  border-color: blue;
+  break-after: column;
+  padding: 5px;
+
+}
+
+.col-2{border: solid;
+  border-color: green;
+  break-after: column;
+  padding: 5px;
+
+}
+
+.col-3{border: solid;
+border-color: orange;
+break-after: avoid-column;
+padding: 5px;
+}
+
+
+.col-1
+@media (max-width: 400px) and (max-width: 799px )
+  {.col-1{    width: 100%;
+
+
+  }
+}
+
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199px)
+{.col-2 {width: 80%;
+  }
+
+}
+
+
+@@media  (min-width: 1200px)
+{.col-3 {width: 60%;
+
+}
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+
+.container {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
